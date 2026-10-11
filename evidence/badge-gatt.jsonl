@@ -1,0 +1,10 @@
+{"authorization": 3, "event": "state", "state": 5, "time": "2026-10-11T19:42:15Z"}
+{"event": "connected", "maxWriteWithResponse": 512, "maxWriteWithoutResponse": 20, "time": "2026-10-11T19:42:25Z"}
+{"event": "service", "primary": true, "time": "2026-10-11T19:42:26Z", "uuid": "A950"}
+{"event": "service", "primary": true, "time": "2026-10-11T19:42:26Z", "uuid": "AE00"}
+{"event": "characteristic", "properties": ["writeWithoutResponse"], "propertiesRaw": 4, "service": "A950", "time": "2026-10-11T19:42:26Z", "uuid": "A951"}
+{"event": "characteristic", "properties": ["writeWithoutResponse"], "propertiesRaw": 4, "service": "A950", "time": "2026-10-11T19:42:26Z", "uuid": "A952"}
+{"event": "characteristic", "properties": ["notify"], "propertiesRaw": 16, "service": "A950", "time": "2026-10-11T19:42:26Z", "uuid": "A953"}
+{"event": "characteristic", "properties": ["writeWithoutResponse"], "propertiesRaw": 4, "service": "AE00", "time": "2026-10-11T19:42:26Z", "uuid": "AE01"}
+{"event": "characteristic", "properties": ["notify"], "propertiesRaw": 16, "service": "AE00", "time": "2026-10-11T19:42:26Z", "uuid": "AE02"}
+{"event": "enumeration_complete", "time": "2026-10-11T19:42:26Z"}

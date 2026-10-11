@@ -1,0 +1,6 @@
+.build/
+badge-tool
+__pycache__/
+.DS_Store
+*.jsonl
+!evidence/*.jsonl

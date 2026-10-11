@@ -1,0 +1,13 @@
+{"authorization": 3, "event": "state", "state": 5, "time": "2026-10-11T19:43:29Z"}
+{"event": "connected", "maxWriteWithResponse": 512, "maxWriteWithoutResponse": 20, "time": "2026-10-11T19:43:32Z"}
+{"event": "service", "primary": true, "time": "2026-10-11T19:43:32Z", "uuid": "A950"}
+{"event": "service", "primary": true, "time": "2026-10-11T19:43:32Z", "uuid": "AE00"}
+{"event": "characteristic", "properties": ["writeWithoutResponse"], "propertiesRaw": 4, "service": "A950", "time": "2026-10-11T19:43:32Z", "uuid": "A951"}
+{"event": "characteristic", "properties": ["writeWithoutResponse"], "propertiesRaw": 4, "service": "A950", "time": "2026-10-11T19:43:32Z", "uuid": "A952"}
+{"event": "characteristic", "properties": ["notify"], "propertiesRaw": 16, "service": "A950", "time": "2026-10-11T19:43:32Z", "uuid": "A953"}
+{"event": "characteristic", "properties": ["writeWithoutResponse"], "propertiesRaw": 4, "service": "AE00", "time": "2026-10-11T19:43:32Z", "uuid": "AE01"}
+{"event": "characteristic", "properties": ["notify"], "propertiesRaw": 16, "service": "AE00", "time": "2026-10-11T19:43:32Z", "uuid": "AE02"}
+{"event": "enumeration_complete", "time": "2026-10-11T19:43:32Z"}
+{"enabled": true, "error": "nil", "event": "notification_state", "time": "2026-10-11T19:43:32Z", "uuid": "A953"}
+{"event": "write", "hex": "540d0003000064", "purpose": "candidate built-in count query", "time": "2026-10-11T19:43:32Z", "uuid": "A951"}
+{"error": "nil", "event": "notification", "hex": "540d0003000064", "time": "2026-10-11T19:43:32Z", "uuid": "A953"}

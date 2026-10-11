@@ -1,0 +1,18 @@
+{"authorization": 3, "event": "state", "state": 5, "time": "2026-10-11T20:00:00Z"}
+{"event": "connected", "maxWriteWithResponse": 512, "maxWriteWithoutResponse": 20, "time": "2026-10-11T20:00:05Z"}
+{"event": "service", "primary": true, "time": "2026-10-11T20:00:05Z", "uuid": "A950"}
+{"event": "service", "primary": true, "time": "2026-10-11T20:00:05Z", "uuid": "AE00"}
+{"event": "characteristic", "properties": ["writeWithoutResponse"], "propertiesRaw": 4, "service": "A950", "time": "2026-10-11T20:00:05Z", "uuid": "A951"}
+{"event": "characteristic", "properties": ["writeWithoutResponse"], "propertiesRaw": 4, "service": "A950", "time": "2026-10-11T20:00:05Z", "uuid": "A952"}
+{"event": "characteristic", "properties": ["notify"], "propertiesRaw": 16, "service": "A950", "time": "2026-10-11T20:00:05Z", "uuid": "A953"}
+{"event": "characteristic", "properties": ["writeWithoutResponse"], "propertiesRaw": 4, "service": "AE00", "time": "2026-10-11T20:00:05Z", "uuid": "AE01"}
+{"event": "characteristic", "properties": ["notify"], "propertiesRaw": 16, "service": "AE00", "time": "2026-10-11T20:00:05Z", "uuid": "AE02"}
+{"event": "enumeration_complete", "time": "2026-10-11T20:00:05Z"}
+{"enabled": true, "error": "nil", "event": "notification_state", "time": "2026-10-11T20:00:05Z", "uuid": "A953"}
+{"event": "write", "hex": "5406000d2ce90be30000007600000002e0", "time": "2026-10-11T20:00:05Z", "uuid": "A951"}
+{"error": "nil", "event": "notification", "hex": "5406000301005e", "time": "2026-10-11T20:00:05Z", "uuid": "A953"}
+{"event": "write", "hex": "5400007e0000000000762ce90be30100000000000000000000000000000000000000000000000030000c000000010001000005001e0000000000000000000000000000000000000000000000a46400000000ea8a00000000ee4e00000000ea2a00000000aaca000000000000000000000000000000000000000000000000000009ed", "time": "2026-10-11T20:00:05Z", "uuid": "A952"}
+{"error": "nil", "event": "notification", "hex": "540000050000000001005a", "time": "2026-10-11T20:00:05Z", "uuid": "A953"}
+{"event": "write", "hex": "54010003010059", "time": "2026-10-11T20:00:05Z", "uuid": "A952"}
+{"error": "nil", "event": "notification", "hex": "54010003010059", "time": "2026-10-11T20:00:05Z", "uuid": "A953"}
+{"event": "upload_acknowledged", "physical_result": "requires visual verification", "time": "2026-10-11T20:00:05Z"}
