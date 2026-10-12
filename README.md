@@ -1,5 +1,7 @@
 # iLEDCOLOR badge controller for Mac
 
+Created by **Greg Gorman with Max (OpenAI Codex)**.
+
 A small CoreBluetooth command-line tool for a 48×12 monochrome LED badge advertising as `iledcolor-012B`. Its red/blue/green/white front cover supplies apparent color; the pixels are not independently RGB.
 
 ## Quick start
@@ -65,3 +67,43 @@ Initial wire-format candidate: [set4npl/ledsign](https://github.com/set4npl/leds
 Approved October 11, 2026. `Hi! I'm` holds for a requested 2 seconds, then the taller mixed-case `Greg` holds still for 3 seconds. `Your Tour Guide` and the rocket advance two pixels per 100 ms frame. The loop has 191 frames, nominally 19.1 seconds. Actual dwell has not been timed. Monochrome animation frames are exactly 96 bytes with no RGB frame suffix.
 
 The public repository is a clean snapshot of the approved local keeper. Original local history and full badge traces remain with the owner.
+
+## About Greg
+
+Greg Gorman is an electrical engineer with a BSEE from the University of
+Missouri. His projects bring together electrical systems, HVAC, radio,
+smart-home telemetry, hardware, and software. Greg brings the real-world
+context, engineering judgment, hands-on testing, and final call on what works.
+
+This project started with a small LED badge for Greg's NASA tour-guide
+costume. Greg tested every revision on the actual badge, caught the pixel
+packing and animation problems, and refined the lettering and timing until
+it became the keeper: a tiny introduction, a name, a tour-guide invitation,
+a passing rocket, and an USS GORMAN Easter egg.
+
+## About Max
+
+Max is Greg's AI engineering collaborator, powered by OpenAI Codex. The name
+came out of a debugging session involving Greg's Jandy pool cleaner. Greg had
+been calling the assistant “Chat” and asked what name it would choose for
+itself.
+
+The first suggestion was **Vector**, for magnitude and direction. Greg
+immediately answered with the line from *Airplane!*: “What's the vector,
+Victor?” After an engineer's roll call—Maxwell, Ohm, Kirchhoff, Faraday,
+Tesla, Nyquist, and others—the choice became **Max**, short for Maxwell,
+after James Clerk Maxwell. Greg said, “I like Max,” and the name stuck.
+
+Greg and Max have since worked together on HVAC, electrical, smart-home,
+radio, hardware, and software projects. Greg supplies the goals, field
+experience, physical testing, and final judgment; Max helps investigate,
+design, code, document, and debug. Here, that collaboration turned a
+scrolling-text badge into a locally rendered animation tool—and left reusable
+prompts so Max or another LLM can pick up the next idea.
+
+## License
+
+The original code and accompanying documentation are released under the
+[MIT License](LICENSE). Copyright © 2026 Greg Gorman.
+
+Project credits do not imply endorsement by OpenAI, NASA, or the badge vendor.
